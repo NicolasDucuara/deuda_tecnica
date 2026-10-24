@@ -8,11 +8,7 @@
     "simulate": "node scripts/simulate.js",
     "test": "node --test"
   },
-  "keywords": [
-    "deuda-tecnica",
-    "refactoring",
-    "iso-25010"
-  ],
+  "keywords": ["deuda-tecnica", "refactoring", "iso-25010"],
   "author": "Especialización en Ingeniería de Software",
   "license": "ISC",
   "dependencies": {},

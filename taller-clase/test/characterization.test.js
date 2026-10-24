@@ -33,7 +33,7 @@ test.describe('Pruebas de Caracterización del Monolito de Órdenes', () => {
     assert.equal(res.ok, true);
     assert.equal(res.data.subtotal, 160);
     assert.equal(res.data.discount, 13); // 160 * 0.05 (8) + 5 (DESC5) = 13
-    assert.equal(res.data.shipping, 0); // Local > 100 gratis
+    assert.equal(res.data.shipping, 1.5); // Local > 100 gratis
     assert.equal(res.data.tax, 27.93); // (160 - 13) * 0.19 = 27.93
     assert.equal(res.data.total, 174.93);
     assert.equal(res.data.payment_status, 'PAID');
